@@ -1,0 +1,45 @@
+content{
+  margin: 0;
+}
+.navbar {
+  display: block;
+  background: teal;
+  overflow:auto;
+  color: white;
+}
+
+.navbar_title {
+  float: left;
+  padding: 2rem;
+}
+.navbar_people {
+  float: right;
+  padding: 2rem;
+}
+
+.navbar_repos {
+  float: right;
+  padding: 2rem;
+}
+.profile_popularusers {
+  background: yellow;
+  width: 20rem;
+  height: 20rem;
+}
+
+.post__author-photo {
+  height: 5em;
+  float: left;
+  padding: 2rem;
+}
+
+.human_name {
+  color: black;
+  display: inline block;
+  padding-top: 3rem;
+}
+
+.user_name {
+  color: gray;
+  margin: -.5rem;
+}
