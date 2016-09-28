@@ -43,3 +43,15 @@ content{
   color: gray;
   margin: -.5rem;
 }
+
+.code_repositories {
+  background: red;
+}
+
+.code_repo {
+  background: pink;
+}
+
+.code_repo_secondary {
+  background: violet;
+}
