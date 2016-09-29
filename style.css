@@ -1,47 +1,54 @@
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after; {
-  box-sizing: borderbox;
-}
 
 body{
   margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: borderbox;
 }
 
 .container {
   max-width: 60rem;
   margin: auto;
+  padding: 1rem;
+  margin: 1em;
+  display: inline-block;
+  width: calc(100% / 3 - 1rem - 1rem);
 }
 
 .navbar {
   display: block;
   background: teal;
-  overflow:auto;
   color: white;
-
+  overflow:auto;
 }
 
 .navbar_title {
   float: left;
-  padding: 2rem;
+  padding-top: .5rem;
+  padding-left: .5rem;
 }
 
 .navbar_people {
   float: right;
-  padding: 2rem;
+  padding-top: .5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
 .navbar_repos {
   float: right;
-  padding: 2rem;
+  padding-top: .5rem;
+  padding-right: .5rem;
 }
 
 .profile_popularusers {
   background: yellow;
+  border: 1em solid purple;
   width: 20rem;
   height: 20rem;
+  float: left;
 }
 
 .profile_user {
