@@ -1,17 +1,33 @@
-content{
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after; {
+  box-sizing: borderbox;
+}
+
+body{
   margin: 0;
 }
+
+.container {
+  max-width: 60rem;
+  margin: auto;
+}
+
 .navbar {
   display: block;
   background: teal;
   overflow:auto;
   color: white;
+
 }
 
 .navbar_title {
   float: left;
   padding: 2rem;
 }
+
 .navbar_people {
   float: right;
   padding: 2rem;
@@ -21,10 +37,15 @@ content{
   float: right;
   padding: 2rem;
 }
+
 .profile_popularusers {
   background: yellow;
   width: 20rem;
   height: 20rem;
+}
+
+.profile_user {
+  overflow:auto;
 }
 
 .post__author-photo {
@@ -50,8 +71,21 @@ content{
 
 .code_repo {
   background: pink;
+  overflow: auto;
 }
 
-.code_repo_secondary {
-  background: violet;
+.codereporight {
+  float: right;
+}
+
+.coderepoleft {
+  float: left;
+}
+
+.dot {
+  display: inline-block;
+  background: blue;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
 }

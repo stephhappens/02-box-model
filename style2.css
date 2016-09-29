@@ -1,0 +1,180 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200px;
+
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero__container, .section__container {
+  width: 100%;
+  max-width: 65rem;
+  margin: auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  color: black;
+  background: #1d52d9;
+}
+
+.hero__fill {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.nav-group {
+  /*float: left;*/
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.nav-group a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul.nav-group {
+  display: flex;
+  margin: 1rem -0.5rem;
+  list-style-type: none;
+}
+
+.nav-group__people {
+  margin: 0 0.5rem;
+  opacity: 0.6;
+  float: right;
+}
+
+.nav-group__repo {
+  margin: 0 0.5rem;
+  opacity: 0.6;
+  float: right;
+}
+
+.nav-group__heading {
+  margin: 0 0.5rem;
+  opacity: 0.6;
+  float: left;
+}
+
+.nav-group__item:hover {
+  opacity: 1;
+}
+
+.section {
+  background: #fafafa;
+  padding: 2rem 1rem;
+  color: #333;
+}
+
+.section--info {
+  background: #2196f3;
+  color: #ecf0f1;
+}
+
+.fancy-text {
+  text-align: center;
+}
+
+.fancy-text--big {
+  font-size: 3rem;
+}
+
+.fancy-text--medium {
+  font-size: 1.6rem;
+}
+
+.section__header {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.divider {
+  width: 20rem;
+  margin: 2rem auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+}
+
+.row__column {
+  margin: 1rem;
+  flex-grow: 1;
+  min-width: 14rem;
+}
+
+.row__column-1-2 {
+  width: calc(100% * 1 / 2 - 2rem);
+  border: 2em solid yellow;
+}
+
+.row__column-1-3 {
+  width: calc(100% * 1 / 3 - 2rem);
+  border: 2 em solid pink;
+}
+
+.row__column-2-3 {
+  width: calc(100% * 2 / 3 - 2rem);
+  border: 2em solid black;
+}
+
+
+.card {
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0.2rem 0.1rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.card {
+  height: 100%;
+  padding: 0.5;
+  padding-bottom: 3rem;
+}
+
+.circle {
+  border-radius: 50%;
+  background: blue;
+  display: inline-block;
+  vertical-align: bottom;
+}
