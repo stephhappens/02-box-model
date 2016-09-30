@@ -2,53 +2,52 @@
 body{
   margin: 0;
   font-family: sans-serif;
+  font-size: 1em;
 }
 
 * {
   box-sizing: borderbox;
 }
 
-.container {
-  max-width: 60rem;
-  margin: auto;
-  padding: 1rem;
-  margin: 1em;
-  display: inline-block;
-  width: calc(100% / 3 - 1rem - 1rem);
-}
-
 .navbar {
-  display: block;
-  background: teal;
+  background: #109094;
   color: white;
   overflow:auto;
 }
 
 .navbar_title {
   float: left;
-  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-left: .5rem;
 }
 
 .navbar_people {
   float: right;
-  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-right: .5rem;
   padding-left: .5rem;
 }
 
 .navbar_repos {
   float: right;
-  padding-top: .5rem;
+  padding-bottom: .5rem;
   padding-right: .5rem;
 }
 
 .profile_popularusers {
-  background: yellow;
-  border: 1em solid purple;
   width: 20rem;
-  height: 20rem;
   float: left;
+  border: .1em solid lightgrey;
+  border-radius:2%;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+  width: calc(100% / 4 - 1rem - 1rem);
 }
 
 .profile_user {
@@ -58,13 +57,14 @@ body{
 .post__author-photo {
   height: 5em;
   float: left;
-  padding: 2rem;
+  padding: .5rem;
+  border-radius: 15%;
 }
 
 .human_name {
   color: black;
   display: inline block;
-  padding-top: 3rem;
+  padding-top: -1rem;
 }
 
 .user_name {
@@ -72,21 +72,33 @@ body{
   margin: -.5rem;
 }
 
-.code_repositories {
-  background: red;
+.coderepositories {
+  float: left;
+  margin: 1em;
 }
 
 .code_repo {
-  background: pink;
   overflow: auto;
 }
 
 .codereporight {
   float: right;
+  padding-right: 1em;
 }
 
 .coderepoleft {
   float: left;
+  padding-left: 1em;
+  border: .4 solid lightgrey;
+}
+
+.codetwo {
+  border: .5 solid lightgray;
+}
+
+.codeone {
+border-top: .1em solid lightgrey;
+border-bottom: .1em solid lightgrey;
 }
 
 .dot {
