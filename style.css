@@ -6,7 +6,7 @@ body{
 }
 
 * {
-  box-sizing: borderbox;
+  box-sizing: border-box;
 }
 
 .navbar {
@@ -34,25 +34,23 @@ body{
   padding-right: .5rem;
 }
 
-.profile_popularusers {
-  width: 20rem;
-  float: left;
-  border: .1em solid lightgrey;
-  border-radius:2%;
-  margin: 0 auto;
+.container {
+  /*max-width: 60rem;
+  margin: auto;
+  overflow: auto;
+  max-height: 100vh;*/
 }
 
-.container {
-  max-width: 60rem;
-  margin: 0auto;
-  padding: 1rem;
-  margin: 1rem;
-  float: left;
+.profile_popularusers {
+  border: .1em solid lightgrey;
+  border-radius: 1rem;
   width: calc(100% / 4 - 1rem - 1rem);
+  margin: 4rem;
+  float: left;
 }
 
 .profile_user {
-  overflow:auto;
+  padding: 1rem;
 }
 
 .post__author-photo {
