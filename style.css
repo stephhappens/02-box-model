@@ -1,4 +1,4 @@
-body {
+  body {
   margin: 0;
   font-family: sans-serif;
   font-size: 1em;
@@ -34,7 +34,7 @@ body {
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 78rem;
   margin: auto;
   overflow: auto;
 }
@@ -103,13 +103,27 @@ body {
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  &-ruby {
-    background: rgba(112, 20, 25, 1.0);
-    &-javascript {
-      background: rgba(240, 223, 113, 1.0);
-      &-css {
-        background: rgba(87, 62, 120, 1.0);
-      }
-    }
   }
+
+.dot-html {
+  background: rgba(228, 73, 48, 1.0);
+  }
+
+.dot-java {
+  background: rgba(176, 113, 46, 1.0);
+}
+
+.dot-ruby {
+  background: rgba(112, 20, 25, 1.0);
+}
+
+.dot-javascript {
+  background: rgba(240, 223, 113, 1.0);
+}
+
+.dot-css {
+  background: rgba(87, 62, 120, 1.0);
+}
+.dot-python {
+  background: rgba(54, 115, 161, 1.0);
 }
