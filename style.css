@@ -1,45 +1,129 @@
-content{
+  body {
   margin: 0;
+  font-family: sans-serif;
+  font-size: 1em;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 .navbar {
-  display: block;
-  background: teal;
-  overflow:auto;
+  background: #109094;
   color: white;
+  overflow: auto;
 }
 
 .navbar_title {
   float: left;
-  padding: 2rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
 }
+
 .navbar_people {
   float: right;
-  padding: 2rem;
+  padding-bottom: .5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
 .navbar_repos {
   float: right;
-  padding: 2rem;
+  padding-bottom: .5rem;
+  padding-right: .5rem;
 }
+
+.container {
+  max-width: 78rem;
+  margin: auto;
+  overflow: auto;
+}
+
 .profile_popularusers {
-  background: yellow;
-  width: 20rem;
-  height: 20rem;
+  border: .1em solid lightgrey;
+  border-radius: 1rem;
+  width: calc(100% / 3 - 1rem - 1rem);
+  margin: 1rem;
+  float: left;
+}
+
+.profile_user {
+  padding: 1rem;
 }
 
 .post__author-photo {
   height: 5em;
   float: left;
-  padding: 2rem;
+  padding: .5rem;
+  border-radius: 15%;
 }
 
 .human_name {
   color: black;
   display: inline block;
-  padding-top: 3rem;
+  padding-top: -1rem;
 }
 
 .user_name {
   color: gray;
   margin: -.5rem;
+}
+
+.coderepositories {
+  float: left;
+  margin: 1em;
+}
+
+.code_repo {
+  overflow: auto;
+}
+
+.codereporight {
+  float: right;
+  padding-right: 1em;
+}
+
+.coderepoleft {
+  float: left;
+  padding-left: 1em;
+  border: .4 solid lightgrey;
+}
+
+.codetwo {
+  border: .5 solid lightgray;
+}
+
+.codeone {
+  border-top: .1em solid lightgrey;
+  border-bottom: .1em solid lightgrey;
+}
+
+.dot {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  }
+
+.dot-html {
+  background: rgba(228, 73, 48, 1.0);
+  }
+
+.dot-java {
+  background: rgba(176, 113, 46, 1.0);
+}
+
+.dot-ruby {
+  background: rgba(112, 20, 25, 1.0);
+}
+
+.dot-javascript {
+  background: rgba(240, 223, 113, 1.0);
+}
+
+.dot-css {
+  background: rgba(87, 62, 120, 1.0);
+}
+.dot-python {
+  background: rgba(54, 115, 161, 1.0);
 }
